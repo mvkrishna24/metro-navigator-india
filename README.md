@@ -1,23 +1,22 @@
-# Metro Navigator India
+# Metro Navigator India 🚇
 
-Industry-grade metro navigation platform for 16 Indian cities
+Metro Navigator India is a backend-focused system designed to help users
+navigate metro systems across major Indian cities.
 
-## Features
-- Smart destination input (non-metro places)
-- Multi-algorithm route planning
-- Real-time fare calculation
-- Rewards system
+## MVP (Phase 1 – Delhi Metro)
+- Smart destination input (non-metro places like India Gate)
+- Nearest metro station detection
+- Metro route planning with interchanges
+- Fare and travel time estimation
 
 ## Tech Stack
-- Java 17, Spring Boot 3.x
-- PostgreSQL with spatial indexing
-- Graph algorithms (Dijkstra, BFS)
+- Java
+- Spring Boot
+- MySQL / PostgreSQL
+- Graph Algorithms (BFS / Dijkstra)
+- OpenStreetMap / Google Maps API
 
-## Setup
-[Installation steps]
-
-## API Documentation
-Swagger UI: http://localhost:8080/swagger-ui.html
-
-## Architecture
-[Diagram]
+## Roadmap
+- Phase 1: Delhi Metro MVP
+- Phase 2: Multi-city support (16 Indian metros)
+- Phase 3: Ticketing, rewards, live tracking
